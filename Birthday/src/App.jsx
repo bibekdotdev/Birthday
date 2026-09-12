@@ -13,7 +13,7 @@ import axios from "axios";
 
 // Point this at your deployed backend (see /backend in this project).
 // Locally that's usually http://localhost:8080/api/wishes.
-const WISH_API_URL = "http://localhost:8080/api/wishes";
+const WISH_API_URL = "https://birthday-backend-gv57.onrender.com/api/wishes";
 
 /* ---------------------------------------------------------
    Gurleen Kaur's Birthday Site
