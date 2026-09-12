@@ -23,8 +23,7 @@ async function connectDB() {
 connectDB();
 const PORT = "https://birthday-qou0.onrender.com" || 8080;
 app.listen(PORT, () => {
-  console.log("hi");
-  console.log("hi");
+  console.log(`Server running on port ${PORT}`);
 });
 app.post("/api/wishes", async (req, res) => {
   try {
